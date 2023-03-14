@@ -41,6 +41,7 @@ main {
     background-color: #f4fcf7;
     border-radius: 10px;
     margin: 0 10px 5px;
+    gap: 10px;
 }
 
 .title {
@@ -50,12 +51,12 @@ main {
     color: #1b9e4b;
 }
 
-.flag {
-    margin-right: 10px;
-}
-
 ul {
     list-style: none;
+}
+
+li {
+    cursor: pointer;
 }
 
 .option-submenu-wrapper {
@@ -72,6 +73,7 @@ ul {
     font-size: 12px;
     font-weight: 600;
     color: #1b9e4b;
+    padding: 5px;
 }
 
 .option-submenu-selected {
@@ -93,8 +95,9 @@ hr {
     padding-right: 10px;
 }
 
-.gap5 {
-    gap: 0.5rem;
+.display-icons > * {
+    cursor: pointer;
+    padding: 5px;
 }
 
 .stadium-submenu {
@@ -181,4 +184,10 @@ hr {
     color: white;
     border-radius: 4px;
     padding: 0 0.2rem;
+}
+
+button {
+    border: none;
+    background-color: inherit;
+    color:  inherit;
 }
