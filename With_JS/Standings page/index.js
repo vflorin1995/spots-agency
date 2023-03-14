@@ -49,3 +49,37 @@ data.forEach((item) => {
 
     doc.append(container);
 });
+
+let firstNav = Array.from(document.querySelector('.option-submenu').getElementsByTagName('li'));
+let secondNav = Array.from(document.querySelector('.stadium-submenu').getElementsByTagName('li'));
+let thirdNav = Array.from(document.querySelector('.time-submenu').getElementsByTagName('li'));
+
+const clearSelectedButton = (arr) => {
+    arr.forEach((element) => {
+        element.className = '';
+    });
+}
+
+firstNav.forEach((button) => {
+    button.addEventListener('click', () => {
+        let index = firstNav.indexOf(button);
+        clearSelectedButton(firstNav);
+        firstNav[index].className = 'option-submenu-selected';
+    });
+});
+
+secondNav.forEach((button) => {
+    button.addEventListener('click', () => {
+        let index = secondNav.indexOf(button);
+        clearSelectedButton(secondNav);
+        secondNav[index].className = 'stadium-submenu-selected';
+    });
+});
+
+thirdNav.forEach((button) => {
+    button.addEventListener('click', () => {
+        let index = thirdNav.indexOf(button);
+        clearSelectedButton(thirdNav);
+        thirdNav[index].className = 'time-submenu-selected';
+    });
+});
