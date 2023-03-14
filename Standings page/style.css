@@ -114,6 +114,10 @@ hr {
     max-width: 220px;
 }
 
+.time-submenu > * {
+    padding: 5px;
+}
+
 .time-submenu-selected {
     background-color: #1b9e4b;
     color: white;

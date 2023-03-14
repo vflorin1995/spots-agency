@@ -20,15 +20,14 @@ main {
     background-color: white;
     margin: 20px 10px;
     border-radius: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 5px;
 }
 
 .flex {
     display: flex;
 }
 
-.flex1 {
+.bar-item {
     flex: 1;
     justify-content: space-around;
 }
@@ -51,7 +50,6 @@ h1 {
     padding: 8px 10px;
     font-size: 20px;
     line-height: 24px;
-    margin: 0 5px;
     border-radius: 10px;
     font-weight: 400;
 }
@@ -63,8 +61,7 @@ h1 {
 }
 
 .info-bar {
-    padding: 12px 10px 5px;
-    gap: 5px;
+    padding: 12px 5px 5px;
 }
 
 .green-pill {
@@ -115,7 +112,7 @@ h1 {
 }
 
 .team-name-bar {
-    padding: 0 13px;
+    padding: 0 8px;
 }
 
 .team-name {
@@ -148,13 +145,13 @@ button {
     font-size: 12px;
     font-weight: 400;
     line-height: 14px;
-    padding: 7px 13px 16px;
+    padding: 7px 8px 16px;
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 0 10px;
+    padding: 0 5px;
     row-gap: 13px;
     column-gap: 17px;
 }
@@ -233,7 +230,7 @@ hr {
     border: none;
     height: 4px;
     border-radius: 4px;
-    margin: 15px 10px;
+    margin: 15px 5px;
     background-color: #E0E1E5;
 }
 
@@ -272,7 +269,7 @@ hr {
 }
 
 .horizontal-stats {
-    margin: 0 10px;
+    margin: 0 5px;
     padding-bottom: 10px;
     overflow: auto;
     white-space: nowrap;
@@ -285,7 +282,7 @@ hr {
 }
 
 .past-matches-container {
-    margin: 5px;
+    margin: 5px 0;
     padding: 5px;
     background-color: #f7f7f7;
     border-radius: 10px;
