@@ -103,7 +103,6 @@ hr {
 .stadium-submenu {
     font-size: 12px;
     padding: 0 10px;
-    gap: 1rem;
 }
 
 .time-submenu {
@@ -115,25 +114,24 @@ hr {
 }
 
 .time-submenu > * {
-    padding: 5px;
+    padding: 3px 13px;
 }
 
 .time-submenu-selected {
     background-color: #1b9e4b;
     color: white;
-    padding: 3px 13px;
     border-radius: 10px;
 }
 
 .stadium-submenu > * {
     flex: 0 1 2rem;
     text-align: center;
+    padding: 3px 8px;
 }
 
 .stadium-submenu-selected {
     background-color: #1b9e4b;
     color: white;
-    padding: 3px 8px;
     border-radius: 10px;
 }
 
