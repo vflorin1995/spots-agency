@@ -20,8 +20,6 @@ let data = {team1src: "./8456.png",
 
 }
 
-let buttonsArr1 = Array.from(document.querySelector('.button-container').getElementsByTagName('button'));
-let buttonsArr2 = Array.from(document.querySelector('.horizontal-stats').getElementsByTagName('button'));
 let main = document.getElementsByTagName('main').item(0);
 
 let infoBar = document.createElement('div');
@@ -153,43 +151,8 @@ buttonContainer.append(showMoreButton);
 
 main.append(infoBar, teamNameBar, paragraph, gridContainer, hr, horizontalStats, pastMatchesContainer, buttonContainer);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+let buttonsArr1 = Array.from(document.querySelector('.button-container').getElementsByTagName('button'));
+let buttonsArr2 = Array.from(document.querySelector('.horizontal-stats').getElementsByTagName('button'));
 
 const clearSelectedButton = (arr) => {
     arr.forEach((element) => {
