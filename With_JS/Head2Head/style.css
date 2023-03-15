@@ -134,6 +134,7 @@ button {
     border: none;
     border-radius: 5px;
     padding: 0.1rem 0.2rem;
+    cursor: pointer;
 }
 
 .button-pressed {
