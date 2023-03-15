@@ -1,197 +1,195 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: #f2f2f2;
+  background-color: #f2f2f2;
 }
 
 header {
-    font-family: 'Philosopher', sans-serif;
-    background-color: #1b9e4b;
-    color: white;
-    font-size: 40px;
-    font-weight: 700;
-    padding: 5px 15px;
+  font-family: 'Philosopher', sans-serif;
+  background-color: #1b9e4b;
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  padding: 5px 15px;
 }
 
 main {
-    background-color: white;
-    margin: 20px 10px;
-    border-radius: 10px;
-    padding-top: 10px;
-    padding-bottom: 5px;
+  background-color: white;
+  margin: 20px 10px;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 5px;
 }
 
 .flex {
-    display: flex;
+  display: flex;
 }
 
 .justify-between {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .align-center {
-    align-items: center;
+  align-items: center;
 }
 
 .title-wrapper {
-    padding: 10px 5px;
-    background-color: #f4fcf7;
-    border-radius: 10px;
-    margin: 0 10px 5px;
-    gap: 10px;
+  padding: 10px 5px;
+  background-color: #f4fcf7;
+  border-radius: 10px;
+  margin: 0 10px 5px;
+  gap: 10px;
 }
 
 .title {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-    color: #1b9e4b;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #1b9e4b;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 li {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .option-submenu-wrapper {
-    background-color: #f4fcf4;
+  background-color: #f4fcf4;
 }
 
 .option-submenu {
-    padding: 0 7px;
-    max-width: 400px;
+  padding: 0 7px;
+  max-width: 400px;
 }
 
 .option-submenu > * {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 12px;
-    font-weight: 600;
-    color: #1b9e4b;
-    padding: 5px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 12px;
+  font-weight: 600;
+  color: #1b9e4b;
+  padding: 5px;
 }
 
 .option-submenu-selected {
-    background-color: #1b9e4b;
-    color: white;
-    padding: 10px 6px;
-    border-radius: 10px;
+  background-color: #1b9e4b;
+  color: white;
+  padding: 10px 6px;
+  border-radius: 10px;
 }
 
 hr {
-    border: none;
-    height: 4px;
-    border-radius: 4px;
-    margin: 6px 10px 10px;
-    background-color: #E0E1E5;
+  border: none;
+  height: 4px;
+  border-radius: 4px;
+  margin: 6px 10px 10px;
+  background-color: #e0e1e5;
 }
 
 .display-icons {
-    padding-right: 10px;
+  padding-right: 10px;
 }
 
 .display-icons > * {
-    cursor: pointer;
-    padding: 5px;
+  cursor: pointer;
+  padding: 5px;
 }
 
 .stadium-submenu {
-    font-size: 12px;
-    padding: 0 10px;
-    gap: 1rem;
+  font-size: 12px;
+  padding: 0 10px;
 }
 
 .time-submenu {
-    font-size: 12px;
-    padding: 0 10px;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 220px;
+  font-size: 12px;
+  padding: 0 10px;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 220px;
 }
 
 .time-submenu > * {
-    padding: 5px;
+  padding: 3px 13px;
 }
 
 .time-submenu-selected {
-    background-color: #1b9e4b;
-    color: white;
-    padding: 3px 13px;
-    border-radius: 10px;
+  background-color: #1b9e4b;
+  color: white;
+  border-radius: 10px;
 }
 
 .stadium-submenu > * {
-    flex: 0 1 2rem;
-    text-align: center;
+  flex: 0 1 2rem;
+  text-align: center;
+  padding: 3px 8px;
 }
 
 .stadium-submenu-selected {
-    background-color: #1b9e4b;
-    color: white;
-    padding: 3px 8px;
-    border-radius: 10px;
+  background-color: #1b9e4b;
+  color: white;
+  border-radius: 10px;
 }
 
 .mt-10 {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .ranking {
-    background-color: #f7f7f7;
-    margin: 10px 5px;
-    border-radius: 10px;
-    padding-bottom: 5px;
+  background-color: #f7f7f7;
+  margin: 10px 5px;
+  border-radius: 10px;
+  padding-bottom: 5px;
 }
 
 .ranking-header {
-    font-size: 10px;
-    font-weight: 600;
-    padding: 5px 16px 5px 5px;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 5px 16px 5px 5px;
 }
 
 .ranking-header > * {
-    flex: 0 1 1.5rem;
-    text-align: center;
+  flex: 0 1 1.5rem;
+  text-align: center;
 }
 
 .ranking-header :nth-child(2) {
-    flex: 1;
-    text-align: left;
+  flex: 1;
+  text-align: left;
 }
 
 .team-item {
-    font-size: 12px;
-    font-weight: 600;
-    padding: 11px 11px 11px 0;
-    margin: 3px 5px;
-    background-color: white;
-    border-radius: 10px;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 11px 11px 11px 0;
+  margin: 3px 5px;
+  background-color: white;
+  border-radius: 10px;
 }
 
 .team-item > * {
-    flex: 0 1 1.5rem;
-    text-align: center;
+  flex: 0 1 1.5rem;
+  text-align: center;
 }
 
 .team-item :nth-child(2) {
-    flex: 1;
-    text-align: left;
+  flex: 1;
+  text-align: left;
 }
 
 .blue-background {
-    background-color: #1b549e;
-    color: white;
-    border-radius: 4px;
-    padding: 0 0.2rem;
+  background-color: #1b549e;
+  color: white;
+  border-radius: 4px;
+  padding: 0 0.2rem;
 }
 
 button {
-    border: none;
-    background-color: inherit;
-    color:  inherit;
+  border: none;
+  background-color: inherit;
+  color: inherit;
 }
